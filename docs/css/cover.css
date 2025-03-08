@@ -114,7 +114,7 @@ body {
 
 @media (min-width: 768px) {
   .masthead-brand {
-    /* float: ; */
+    float: ;
 }
   .masthead-nav {
     float: right;
