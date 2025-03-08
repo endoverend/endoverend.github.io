@@ -112,10 +112,17 @@ body {
   border-bottom-color: #fff;
 }
 
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
 @media (min-width: 768px) {
   .masthead-brand {
-    float: ;
-}
+    margin: 0 auto; /* Center align */
+    display: block; /* Ensure it behaves as a block element */
+  }
   .masthead-nav {
     float: right;
   }
